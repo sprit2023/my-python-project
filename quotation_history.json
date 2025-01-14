@@ -1,0 +1,43 @@
+[
+  {
+    "time": "2025-01-14 12:37:18",
+    "total": 20624.36,
+    "items": [
+      {
+        "code": "DELL.MN.22L.00027",
+        "name": "DELL显示器",
+        "spec": "E2225H~~~~1011437793.794",
+        "price": 488.85,
+        "quantity": 2
+      },
+      {
+        "code": "DELL.NB.E7430.72.00083",
+        "name": "DELL笔记本",
+        "spec": "E7430 I7-1255U 16G 512G W11H 蓝红外摄背高3YPLUS ~~~~可以出，713607687",
+        "price": 5542.0,
+        "quantity": 1
+      },
+      {
+        "code": "DELL.PC.7020SFF.31.00002",
+        "name": "DELL台式机",
+        "spec": "7020SFF I3-12100 8G-DDR5 512G W11 180W 3Y--D3085CN",
+        "price": 2267.0,
+        "quantity": 1
+      },
+      {
+        "code": "DELL.PJ.WC.00004",
+        "name": "DELL配件",
+        "spec": "Mini HDMI转DVI线",
+        "price": 32.38,
+        "quantity": 2
+      },
+      {
+        "code": "DELL.SERPJ.CPU.43.00004",
+        "name": "DELL服务器CPU",
+        "spec": "DELL服务器CPU 4316",
+        "price": 5886.45,
+        "quantity": 2
+      }
+    ]
+  }
+]

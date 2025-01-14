@@ -1,0 +1,13 @@
+程序启动失败: 'QuotationApp' object has no attribute 'show_tree_context_menu'
+Traceback (most recent call last):
+  File "/Users/sprit_zeng/Downloads/python/quotation_program3.py", line 180, in main
+    app = QuotationApp(root)
+          ^^^^^^^^^^^^^^^^^^
+  File "/Users/sprit_zeng/Downloads/python/quotation_program3.py", line 36, in __init__
+    self.create_widgets()
+  File "/Users/sprit_zeng/Downloads/python/quotation_program3.py", line 136, in create_widgets
+    self.create_product_table()
+  File "/Users/sprit_zeng/Downloads/python/quotation_program3.py", line 92, in create_product_table
+    self.product_tree.bind("<Button-3>", self.show_tree_context_menu)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'QuotationApp' object has no attribute 'show_tree_context_menu'
