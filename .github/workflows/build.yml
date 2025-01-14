@@ -1,0 +1,31 @@
+name: Build Windows EXE
+
+on:
+  push:
+    branches:
+      - main  # 只在 main 分支推送时触发
+  workflow_dispatch:  # 允许手动触发
+
+jobs:
+  build:
+    runs-on: windows-latest  # 使用 Windows 虚拟机
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'  # 使用 Python 3.11
+
+      - name: Install PyInstaller
+        run: pip install pyinstaller
+
+      - name: Build EXE
+        run: pyinstaller --onefile program2.py  # 替换为你的脚本文件名
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name:Quotation_program2.exe  # 生成的 EXE 文件名
+          path: dist/Quotation_program2.exe  # PyInstaller 生成的 EXE 文件路径
