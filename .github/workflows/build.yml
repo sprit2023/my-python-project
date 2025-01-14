@@ -27,5 +27,5 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v3
         with:
-          name:Quotation_program2.exe  # 生成的 EXE 文件名
+          name: Quotation_program2.exe  # 生成的 EXE 文件名
           path: dist/Quotation_program2.exe  # PyInstaller 生成的 EXE 文件路径
